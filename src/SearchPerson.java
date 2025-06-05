@@ -25,7 +25,7 @@ public class SearchPerson {
   public static void main(String[] args) {
     String[] names = { "Alanna", "Joao", "Moizes", "Liz", "Ivo", "Junior" };
     Arrays.sort(names);
-    int result = new SearchPerson().searchPerson(names, "alanna");
+    int result = new SearchPerson().searchPerson(names, "joao");
 
     if (result != -1) {
       System.out.println("Encontrado no índice: " + result);

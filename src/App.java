@@ -1,9 +1,15 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        int x = 121;
+        String str = "Cuida menino";
 
-        int resto = x % 10;
+        int totalString = str.length();
+        char primeiro = str.charAt(0);
+        char segunda = str.charAt(1);
+        char ultimo = str.charAt(str.length() - 1);
 
-        System.out.println(resto);
+        System.out.println(primeiro);
+        System.out.println(segunda);
+        System.out.println(totalString);
+        System.out.println(ultimo);
     }
 }
