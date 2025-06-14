@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ExeSelectionSort {
 
-  private static List<Integer> selectionSorte(List<Integer> arr) {
+  private static List<Integer> selectionSort(List<Integer> arr) {
     List<Integer> newArr = new ArrayList<>(arr.size());
 
     int size = arr.size();
@@ -32,6 +32,6 @@ public class ExeSelectionSort {
 
   public static void main(String[] args) {
     List<Integer> arr = new ArrayList<>(Arrays.asList(2, 6, 8, 9, 1, 10));
-    System.out.println(selectionSorte(arr));
+    System.out.println(selectionSort(arr));
   }
 }
