@@ -26,6 +26,7 @@ public class SearchKey {
   // função recursiva
   public static boolean searchKey(List<SearchKey> itens) {
     for (SearchKey item : itens) {
+      // caso-base
       if (item.box()) {
         if (searchKey(item.conteudo)) {
           return true;
